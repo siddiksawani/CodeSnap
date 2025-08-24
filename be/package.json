@@ -1,0 +1,23 @@
+{
+  "name": "codesnap-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API server for CodeSnap AI - Transform ideas into websites with AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js",
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["ai", "code-generation", "web-development", "typescript", "express"],
+  "author": "Siddik Sawani <siddikhacker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "typescript": "^5.7.2"
+  }
+}
